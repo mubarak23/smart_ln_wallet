@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 lightning = "0.0.110"
-lightning-invoice = "0.9.3"
+lightning-invoice = { version = "0.32.0-rc1" }
 lightning-persister = "0.0.110"
 bitcoin = "0.27.0"
 async-std = "1.10"
