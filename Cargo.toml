@@ -1,0 +1,18 @@
+[package]
+name = "smart_ln_wallet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lightning = "0.0.110"
+lightning-invoice = "0.9.3"
+lightning-persister = "0.0.110"
+bitcoin = "0.27.0"
+async-std = "1.10"
+tokio = { version = "1", features = ["full"] }
+log = "0.4"
+env_logger = "0.9"
+sled = "0.34" # For key-value database
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+config = "0.13"
